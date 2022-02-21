@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #757575;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 60%;
+    margin: auto;
+}
+
+div h2 {
+    color: #008357;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.56rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+h5 {
+    text-align: justify;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+h3 {
+    text-align: justify;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+img {
+    float: left;
+    margin: 5px;
+}
+
+.facu {
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 14px;
+    color: #757575;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    box-sizing: content-box;
+    display: block;
+    padding: 10px 0;
+    border: 0;
+    border-top: 2px solid #008357;
+    border-bottom: 2px solid #008357;
+    margin: 1em 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*materias*/
+
+.materias h4 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: #d7d7d7 solid 1px;
+    color: #008357;
+}
+
+.materias p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* DivTable.com */
+
+div.Table {
+    background-color: #F5F5F5;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.divTable.Table .divTableCell, .divTable.Table .divTableHead {
+    padding: 3px 2px;
+}
+
+.divTable.Table .divTableBody .divTableCell {
+    font-size: 14px;
+}
+
+.subject {
+    text-align: left;
+}
+
+.divTable.Table .divTableRow:nth-child(even) {
+    background: #FFFFFF;
+}
+
+.divTable.Table .divTableHeading {
+    background: #008357;
+}
+
+.divTable.Table .divTableHeading .divTableHead {
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Table.outerTableFooter .tableFootStyle {
+    padding: 3px 5px;
+}
+
+/* DivTable.com */
+
+.divTable {
+    display: table;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableHeading {
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    display: table-cell;
+}
+
+.divTableHeading {
+    display: table-header-group;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
